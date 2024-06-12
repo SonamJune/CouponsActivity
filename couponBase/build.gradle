@@ -1,0 +1,181 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+
+android {
+    namespace 'com.example.couponbase'
+    compileSdk 33
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    defaultConfig {
+//        applicationId "com.example.couponbase"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.google.code.gson:gson:2.8.5'
+    api 'com.android.volley:volley:1.1.0'
+
+    api 'com.squareup.picasso:picasso:2.71828'
+    api('com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0') {
+        exclude module: "com.squareup.picasso:"
+    }
+
+    api 'androidx.multidex:multidex:2.0.1'
+
+    api("com.andkulikov:transitionseverywhere:1.7.4") {
+        exclude group: 'com.android.support'
+    }
+
+
+
+    api('fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar') {
+        exclude group: 'com.google.android', module: 'support-v4'
+    }
+
+    //support libs
+    api('androidx.legacy:legacy-support-v13:1.0.0') {
+        exclude module: 'support-v4'
+    }
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'androidx.appcompat:appcompat:1.4.0'
+    api('com.google.android.material:material:1.4.0') {
+        exclude group: 'com.android.support'
+    }
+    api 'androidx.recyclerview:recyclerview:1.1.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    api 'androidx.browser:browser:1.4.0'
+    api 'org.greenrobot:eventbus:3.0.0'
+
+    //play service libs
+    api("com.google.android.gms:play-services-auth:20.3.0") {
+        ['com.google.android.gms:play-services-base', 'com.google.android.gms:play-services-basement',
+         'com.google.android.gms:play-services-tasks'].each {
+            exclude group: it
+        }
+    }
+
+    //Firebase
+//    api platform('com.google.firebase:firebase-bom:30.5.0')
+//    api 'com.google.firebase:firebase-analytics'
+//
+//    api("com.google.firebase:firebase-auth") {
+//        exclude group: 'com.google.android.gms'
+//        exclude module: 'firebase-iid'
+//        exclude group: 'com.google.firebase:firebase-common'
+//
+//    }
+//    api 'com.google.firebase:firebase-messaging'
+//
+//    api("com.google.firebase:firebase-config") {
+//        exclude module: 'firebase-iid'
+//        ['com.google.android.gms', 'com.google.firebase:firebase-iid', 'com.google.firebase:firebase-common',
+//         'com.google.firebase:firebase-measurement-connector', 'com.google.android.gms:play-services-basement', 'com.google.android.gms:play-services-tasks'].each {
+//            exclude group: it
+//        }
+//    }
+//    api("com.google.firebase:firebase-perf") {
+//        exclude module: 'firebase-iid'
+//        ['com.google.firebase:firebase-common', 'com.google.firebase:firebase-iid', 'com.google.firebase:firebase-analytics',
+//         'com.google.firebase:firebase-config', 'com.google.android.gms:play-services-base', 'com.google.android.gms:play-services-basement',
+//         'com.google.android.gms:play-services-tasks'].each {
+//            exclude group: it
+//        }
+//    }
+//
+//    api('com.google.firebase:firebase-database') {
+//        exclude group: 'com.google.android.gms'
+//        exclude module: 'firebase-iid'
+//        exclude group: 'com.google.firebase:firebase-common'
+//    }
+
+    api 'androidx.multidex:multidex:2.0.1'
+
+    api('com.google.api-client:google-api-client-android:1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'com.google.oauth-client:google-oauth-client'
+        exclude group: 'com.google.http-client:google-http-client-jackson2'
+        exclude group: 'com.google.guava'
+    }
+
+//    implementation 'com.google.firebase:firebase-crashlytics'
+
+
+    api('com.facebook.android:facebook-applinks:12.0.0')
+    api('com.facebook.android:facebook-core:12.0.0')
+
+    api('io.branch.sdk.android:library:5.4.0') {
+        exclude module: 'answers-shim'
+    }
+
+    implementation 'com.parse.bolts:bolts-applinks:1.4.0'
+    def lifecycleVersion = "2.3.0"
+    implementation "androidx.lifecycle:lifecycle-process:$lifecycleVersion"
+
+    api("com.google.android.gms:play-services-analytics:18.0.2") {
+        exclude module: 'play-services-base'
+        exclude module: 'play-services-basement'
+        exclude module: 'play-services-measurement-base'
+        exclude module: 'play-services-stats'
+    }
+//    implementation('com.google.firebase:firebase-inappmessaging-display') {
+//        exclude group: 'com.google.android.gms'
+//        exclude group: 'com.squareup.picasso'
+//        exclude group: 'com.google.guava'
+//    }
+    api 'com.google.guava:guava:28.0-android'
+    implementation 'com.karumi:dexter:5.0.0'
+
+    //BRANCH REQUIREMENT
+//    implementation 'com.google.firebase:firebase-appindexing'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+
+    //Clevertap
+    implementation 'com.google.android.play:core:1.8.3'
+    implementation "androidx.media:media:1.6.0"
+
+    //ssp (scalable sp) size unit scales with the screen size based on the sp size unit (for texts).
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+
+    //sdp (scalable dp)
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    //hilt
+    def activity_version = "1.4.0"
+    implementation("androidx.activity:activity-ktx:$activity_version")
+    implementation "androidx.navigation:navigation-compose:2.5.1"
+    implementation "androidx.security:security-crypto-ktx:1.1.0-alpha06"
+
+
+    implementation 'com.datatheorem.android.trustkit:trustkit:1.1.3'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+    implementation "androidx.security:security-crypto-ktx:1.1.0-alpha06"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+}

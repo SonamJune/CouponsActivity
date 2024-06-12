@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:switchStyle">@style/switch_style</item>
+        <item name="android:textStyle">normal</item>
+        <item name="colorControlNormal">@color/medium_gray_color</item>
+
+
+        <!-- MaterialComponents attributes (needed if parent="Theme.AppCompat"). -->
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+        <item name="colorSecondaryVariant">@color/design_default_color_secondary_variant</item>
+        <item name="colorSurface">@color/design_default_color_surface</item>
+        <item name="colorOnPrimary">@color/design_default_color_primary</item>
+        <item name="colorOnSecondary">@color/design_default_color_secondary</item>
+        <item name="colorOnBackground">@color/design_default_color_background</item>
+        <item name="colorOnError">@color/design_default_color_error</item>
+        <item name="colorOnSurface">@color/design_default_color_surface</item>
+        <item name="scrimBackground">@color/mtrl_scrim_color</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1
+        </item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2
+        </item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3
+        </item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4
+        </item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5
+        </item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6
+        </item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1
+        </item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2
+        </item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+    </style>
+
+    <style name="switch_style" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:color">@color/light_gray_color</item>
+        <item name="android:colorControlNormal">@color/medium_gray_color</item>
+    </style>
+
+    <style name="widget_title">
+        <item name="android:textSize">@dimen/widget_title</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="serif_headline">
+        <item name="android:textSize">@dimen/headline</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="serif_title">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="body1">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="purplle_typeface">regular</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColorHint">@color/medium_gray_color</item>
+    </style>
+
+    <style name="body3">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="purplle_typeface">regular</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="caption">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="purplle_typeface">regular</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+
+    </style>
+
+    <style name="caption2">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="purplle_typeface">medium</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="small2">
+        <item name="android:textSize">@dimen/small2</item>
+        <item name="purplle_typeface">regular</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="small">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="purplle_typeface">regular</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+
+    </style>
+
+    <style name="subheading">
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="purplle_typeface">regular</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="subheading2">
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="purplle_typeface">medium</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="body2">
+        <item name="android:textSize">@dimen/body2</item>
+        <item name="purplle_typeface">medium</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">@dimen/button</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="purplle_typeface">medium</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="toolbar_theme">
+        <item name="android:theme">@style/toolbar_item_color</item>
+        <item name="android:colorControlNormal">@color/toolbar_item_color</item>
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">@dimen/_14dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+    </style>
+
+    <style name="TabLayoutStyleBold" parent="Base.Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/_13dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+    </style>
+
+    <style name="TransparentCompat" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="android:TextAppearance.Material.Widget.Button" />
+
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="android:TextAppearance.Material.Widget.Button" />
+
+    <style name="body_manrope_semi_bold">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="body_manrope_bold">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="body_manrope_medium">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="button_manrope_semi_bold">
+        <item name="android:textSize">@dimen/button</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="button_manrope_bold">
+        <item name="android:textSize">@dimen/button</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="caption_manrope_medium">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="caption_manrope_medium2">
+        <item name="android:textSize">@dimen/caption2</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="caption_manrope_medium2_bold">
+        <item name="android:textSize">@dimen/caption2</item>
+        <item name="purplle_typeface">manrope_bold</item>
+    </style>
+
+    <style name="caption_manrope_bold">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/medium_gray_color</item>
+    </style>
+
+    <style name="caption_semi_bold">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="subheading_manrope_bold">
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="manrope_regular">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="purplle_typeface">manrope_regular</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="notification_meta" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/caption</item>
+    </style>
+
+    <style name="manual_carousel_arrow_rev_rich_purplle" parent="android:Widget.TextView">
+        <item name="android:layout_width">@dimen/_36dp</item>
+        <item name="android:layout_height">@dimen/_50dp</item>
+        <item name="android:layout_centerVertical">true</item>
+<!--        <item name="android:src">@drawable/ic_pt_arrow_back</item>-->
+    </style>
+
+    <style name="manual_carousel_arrow_fwd_rich_purplle" parent="android:Widget.TextView">
+        <item name="android:layout_width">@dimen/_36dp</item>
+        <item name="android:layout_height">@dimen/_50dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+<!--        <item name="android:src">@drawable/ic_pt_arrow_forward</item>-->
+    </style>
+
+    <style name="manrope_bold_12sp">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/product_name_lite_black_color</item>
+    </style>
+
+    <style name="manrope_bold_14sp">
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/product_name_lite_black_color</item>
+    </style>
+
+    <style name="manrope_bold_10sp">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/disable_text_color</item>
+    </style>
+
+    <style name="manrope_regular_10sp">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/product_name_lite_black_color</item>
+    </style>
+
+    <style name="manrope_regular_10sp_black">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/product_name_lite_black_color</item>
+    </style>
+
+
+    <style name="manrope_regular_8sp_ash_grey">
+        <item name="android:textSize">@dimen/_8sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/ash_gray</item>
+    </style>
+
+    <style name="manrope_bold_16sp">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="manrope_regular_12sp">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+    </style>
+
+    <style name="manrope_bold_18sp">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/licorice_black</item>
+    </style>
+
+    <style name="manrope_medium_18sp">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/ash_gray</item>
+    </style>
+
+    <style name="manrope_medium_13sp">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/product_offer_price_color</item>
+    </style>
+
+    <style name="manrope_regular_subheading">
+        <item name="android:textSize">@dimen/subheading_12ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="manrope_regular_headline">
+        <item name="android:textSize">@dimen/headline_16ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="manrope_regular_caption">
+        <item name="android:textSize">@dimen/caption_10ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+
+    </style>
+
+    <style name="manrope_body1">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="purplle_typeface">manrope_regular</item>
+        <item name="android:textColor">@color/dark_gray_color</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColorHint">@color/medium_gray_color</item>
+    </style>
+
+    <style name="manrope_regular_8sp">
+        <item name="android:textSize">@dimen/_8sp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="manrope_semi_bold_14sp">
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+    </style>
+
+    <style name="manrope_medium_10sp">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+    </style>
+
+    <style name="man_regular_12sp">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_10sp">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="manrope_medium_12sp">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/product_offer_price_color</item>
+    </style>
+
+    <!--    ManRope Font in ssp-->
+    <style name="man_regular_8ssp">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_9ssp">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_10ssp">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_12ssp">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_13ssp">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_14ssp">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_regular_16ssp">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="purplle_typeface">manrope_regular</item>
+    </style>
+
+    <style name="man_medium_8ssp">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+    </style>
+
+
+    <style name="man_medium_10ssp">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+    </style>
+
+    <style name="man_medium_12ssp">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="purplle_typeface">manrope_medium</item>
+        <item name="android:textColor">@color/product_offer_price_color</item>
+    </style>
+
+    <style name="man_semi_bold_14ssp">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+    </style>
+
+    <style name="man_bold_8ssp">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/disable_text_color</item>
+    </style>
+
+    <style name="man_bold_9ssp">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/disable_text_color</item>
+    </style>
+
+    <style name="man_bold_10ssp">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/disable_text_color</item>
+    </style>
+
+
+    <style name="man_bold_12ssp">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+    </style>
+
+    <style name="man_bold_13ssp">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+    </style>
+
+    <style name="man_semi_bold_13ssp">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+    </style>
+
+    <style name="man_bold_14ssp">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+        <item name="android:textColor">@color/product_name_lite_black_color</item>
+    </style>
+
+    <style name="man_bold_18ssp">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+    </style>
+
+    <style name="man_bold_20ssp">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="purplle_typeface">manrope_bold</item>
+    </style>
+    <style name="man_bold_24ssp">
+<!--        <item name="android:textSize">@dimen/_24ssp</item>-->
+        <item name="purplle_typeface">manrope_bold</item>
+    </style>
+
+    <style name="man_semi_bold_12ssp">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="purplle_typeface">manrope_semi_bold</item>
+    </style>
+
+</resources>

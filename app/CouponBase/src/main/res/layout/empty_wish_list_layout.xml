@@ -1,0 +1,64 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/wishlist_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30dp"
+            android:background="@drawable/empty_wishlist" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/my_wish_list_label"
+            style="@style/subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10dp"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_10dp"
+            android:text="@string/your_wishlist_is_empty"
+            android:textColor="@color/dark_gray_color" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_30dp"
+            android:gravity="center"
+            android:text="@string/explore_more_and_shortlist_some_items" />
+
+        <include layout="@layout/recommended_for_you_layout" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/continue_shopping_button"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10dp"
+            android:alpha="1"
+            android:background="@drawable/circular_button_selector_primary"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_10dp"
+            android:paddingLeft="@dimen/_30dp"
+            android:paddingRight="@dimen/_30dp"
+            android:paddingTop="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:text="@string/continue_shopping"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

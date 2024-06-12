@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_text">#ffffff</color>
+    <color name="notification_icon_color">#e40980</color>
+    <color name="notification_background_colour">#000000</color>
+    <color name="notification_circular_ripple_color">#D8D4D4</color>
+</resources>

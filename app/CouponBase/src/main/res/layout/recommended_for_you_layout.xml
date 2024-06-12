@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recommend_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:background="@drawable/recommendations_image" />
+
+    <com.manash.purpllebase.views.PurplleTextView
+        style="@style/subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:gravity="center"
+        android:text="@string/recommended_for_you_camel"
+        android:textColor="@color/dark_gray_color" />
+
+    <RelativeLayout
+        android:id="@+id/recommended_for_you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:layout_marginLeft="@dimen/_15dp"
+        android:layout_marginRight="@dimen/_15dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+</LinearLayout>

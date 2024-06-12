@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/button_primary_selected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_selected="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_primary_selected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_selected="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_primary_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_primary_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_disabled_color" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_primary_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+</selector>

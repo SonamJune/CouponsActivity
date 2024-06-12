@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/accent_ripple_color">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/button_accent_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_selected="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_accent_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_selected="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_accent_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/button_accent_unselected" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+</ripple>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_root"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/white_background_selector"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/icon"
+            style="@style/icon"
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:gravity="center"
+            android:textSize="@dimen/_18dp" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/title"
+            style="@style/man_regular_12ssp"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_22dp"
+            android:layout_weight="1.0"
+            android:alpha="1"
+            android:gravity="center_vertical" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/count"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_20dp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/next_icon"
+            style="@style/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/_18dp"
+            android:gravity="center"
+            android:paddingTop="@dimen/_2dp"
+            android:text="@string/arrow_right_icon"
+            android:textColor="@color/dark_gray_color"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:background="@color/divider_color"
+        android:visibility="gone" />
+</RelativeLayout>

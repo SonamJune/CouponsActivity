@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_box_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_background_selector"
+    android:orientation="horizontal">
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/checkbox_view"
+        style="@style/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/_10dp"
+        android:adjustViewBounds="true"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:padding="@dimen/_6dp"
+        android:textSize="@dimen/_20dp" />
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/title_view"
+        style="@style/body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/_15dp"
+        android:paddingLeft="@dimen/_16dp"
+        android:paddingRight="@dimen/_8dp"
+        android:layout_toLeftOf="@id/checkbox_view"
+        android:paddingTop="@dimen/_15dp"
+        android:textColor="@color/dark_gray_color" />
+</RelativeLayout>

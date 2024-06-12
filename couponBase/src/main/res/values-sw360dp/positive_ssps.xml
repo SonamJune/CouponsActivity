@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_8ssp">8.00sp</dimen>
+    <dimen name="_9ssp">9.00sp</dimen>
+    <dimen name="_10ssp">10.00sp</dimen>
+    <dimen name="_11ssp">11.00sp</dimen>
+    <dimen name="_12ssp">12.00sp</dimen>
+    <dimen name="_13ssp">13.00sp</dimen>
+    <dimen name="_14ssp">14.00sp</dimen>
+    <dimen name="_15ssp">15.00sp</dimen>
+    <dimen name="_16ssp">16.00sp</dimen>
+    <dimen name="_18ssp">18.00sp</dimen>
+    <dimen name="_20ssp">20.00sp</dimen>
+    <dimen name="_28ssp">28.00sp</dimen>
+    <dimen name="_34ssp">34.00sp</dimen>
+</resources>

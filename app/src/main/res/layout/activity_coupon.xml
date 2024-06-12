@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/tool_bar_generic"
+        layout="@layout/tool_bar" />
+
+<!--    <com.manash.purpllebase.views.MaterialProgressBar-->
+<!--        android:id="@+id/progress_bar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:visibility="gone" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool_bar_generic"
+        android:layout_marginBottom="@dimen/_60dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/network_error_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool_bar_generic"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corner_top_18_border_f0eded_atc"
+        android:paddingBottom="@dimen/_10dp"
+        android:paddingLeft="@dimen/_10dp"
+        android:paddingRight="@dimen/_10dp"
+        android:paddingTop="@dimen/_15dp"
+        android:visibility="gone">
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/clear_button"
+            style="@style/man_bold_14ssp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="@string/clear_lowercase" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/apply_button"
+            style="@style/man_bold_14ssp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_weight="1"
+            android:background="@drawable/violet_border_filled_8dp"
+            android:gravity="center"
+            android:text="@string/apply_lowercase"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

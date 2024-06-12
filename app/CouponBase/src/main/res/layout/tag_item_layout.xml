@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="@dimen/_8dp"
+    android:background="@drawable/purplle_border_chip_layout"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="2.0">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/_5dp"
+        android:paddingLeft="@dimen/_8dp"
+        android:paddingRight="@dimen/_7dp"
+        android:paddingTop="@dimen/_3dp"
+        android:weightSum="2.0">
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/tag_name"
+            style="@style/caption_manrope_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:alpha="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/product_name_lite_black_color"
+            android:maxWidth="@dimen/_100dp" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/remove_tag"
+            style="@style/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_6dp"
+            android:textColor="@color/dark_washed_purple"
+            android:layout_toRightOf="@+id/tag_name"
+            android:background="?selectableItemBackground"
+            android:gravity="center|right|center_vertical"
+            android:text="@string/circular_cross_icon_id"
+            android:textSize="@dimen/_15dp" />
+    </RelativeLayout>
+</LinearLayout>

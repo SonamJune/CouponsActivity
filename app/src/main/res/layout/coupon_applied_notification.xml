@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notification"
+    android:layout_gravity="center"
+    android:layout_width="278dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40dp"
+            android:background="@drawable/white_rounded_18dp_bg"
+            android:paddingLeft="@dimen/_15dp"
+            android:paddingRight="@dimen/_15dp">
+
+        <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/congrats_text"
+                style="@style/man_bold_12ssp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="@dimen/_41dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginStart="@dimen/_20dp"
+                android:fontFamily="serif"
+                android:text="@string/congratulations_text"
+                android:textSize="@dimen/_18ssp"
+                android:textColor="@color/black" />
+
+        <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/coupon_code_txt"
+                style="@style/man_bold_12ssp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/congrats_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="@dimen/_40dp"
+                android:paddingLeft="@dimen/_15dp"
+                android:paddingRight="@dimen/_15dp"
+                android:gravity="center"
+                tools:text="Coupon Code akshaytest Successfully Applied!"
+                android:textColor="@color/black"/>
+
+        <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/you_saved_text"
+                style="@style/man_regular_12ssp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/coupon_code_txt"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="@dimen/_38dp"
+                android:text="@string/you_saved"
+                android:textColor="@color/black"/>
+
+        <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/saved_amount_text"
+                style="@style/subheading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/you_saved_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="@dimen/_4dp"
+                tools:text="₹100"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_28ssp"/>
+
+        <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/onyour_order_text"
+                style="@style/man_regular_12ssp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/saved_amount_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="@dimen/_5dp"
+                android:text="@string/on_your_order"
+                android:textColor="@color/black"/>
+
+        <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/dismiss_text_coupon"
+                style="@style/man_bold_12ssp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/onyour_order_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="60dp"
+                android:paddingBottom="@dimen/_13dp"
+                android:text="@string/_yay"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/purplle_base"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+            android:id="@+id/can_icon"
+            android:layout_width="82dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"/>
+</FrameLayout>

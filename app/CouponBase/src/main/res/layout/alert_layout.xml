@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/root"
+    android:background="@color/fluorescent_orange"
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/_10dp"
+    android:paddingBottom="@dimen/_10dp"
+    android:visibility="gone">
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/info_icon"
+        style="@style/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_16dp"
+        android:text="@string/info_icon_id"
+        android:textColor="@color/dark_gray_color"
+        android:textSize="@dimen/_26dp" />
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/close_cross_icon"
+        style="@style/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_15dp"
+        android:layout_marginRight="@dimen/_8dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="@dimen/_3dp"
+        android:text="@string/cancel_cross_icon_id"
+        android:textColor="@color/dark_gray_color"
+        android:textSize="@dimen/_22dp" />
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/message_help_text"
+        style="@style/body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_toLeftOf="@id/close_cross_icon"
+        android:layout_toRightOf="@id/info_icon"
+        android:text="@string/shop_for_rs_160_more_and_get_free_shipping" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/message_help_text"
+        android:layout_marginStart="@dimen/_20dp"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/divider_color"
+        android:visibility="gone" />
+
+</RelativeLayout>

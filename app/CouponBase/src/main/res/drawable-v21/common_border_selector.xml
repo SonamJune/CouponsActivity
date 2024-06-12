@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/gray">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </shape>
+    </item>
+
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </shape>
+    </item>
+
+    <item android:state_selected="false">
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </shape>
+    </item>
+</ripple>

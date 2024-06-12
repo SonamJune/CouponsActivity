@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+  <path
+      android:pathData="M60.5,49l-15,15 15.2,15.2 15.2,15.2 2.6,-2.4 2.6,-2.4 -12.8,-12.8 -12.8,-12.8 12.8,-12.8 12.8,-12.8 -2.4,-2.2c-1.3,-1.2 -2.5,-2.2 -2.8,-2.2 -0.2,-0 -7.2,6.8 -15.4,15z"
+      android:fillColor="@color/pager_indicator"
+      android:strokeColor="@color/pager_indicator"/>
+</vector>

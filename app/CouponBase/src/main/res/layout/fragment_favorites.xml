@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favorites_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_background_listing">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favourites_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_background_listing"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/_6dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/progress_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.manash.purpllebase.views.MaterialProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10dp" />
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/empty_wish_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/empty_wish_list_layout" />
+
+    <LinearLayout
+        android:id="@+id/network_error_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" />
+</RelativeLayout>

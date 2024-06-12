@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="indicatorColor" format="color" />
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="tabBackground1" format="reference" />
+        <attr name="tabBackgroundTextViewId" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+    <attr name="hlv_dividerWidth" />
+    <attr name="typeface" format="enum">
+        <enum name="roboto_thin" value="0" />
+        <enum name="roboto_thin_italic" value="1" />
+        <enum name="roboto_light" value="2" />
+        <enum name="roboto_light_italic" value="3" />
+        <enum name="roboto_regular" value="4" />
+        <enum name="roboto_italic" value="5" />
+        <enum name="roboto_medium" value="6" />
+        <enum name="roboto_medium_italic" value="7" />
+        <enum name="roboto_bold" value="8" />
+        <enum name="roboto_bold_italic" value="9" />
+        <enum name="roboto_black" value="10" />
+        <enum name="roboto_black_italic" value="11" />
+        <enum name="roboto_condensed" value="12" />
+        <enum name="roboto_condensed_italic" value="13" />
+        <enum name="roboto_condensed_bold" value="14" />
+        <enum name="roboto_condensed_bold_italic" value="15" />
+        <enum name="anton" value="16" />
+        <enum name="goutham_rounded" value="17" />
+        <enum name="goutham_rounded_bold" value="18" />
+        <enum name="goutham_rounded_bold_italic" value="19" />
+        <enum name="goutham_rounded_italic" value="20" />
+        <enum name="goutham_rounded_light" value="21" />
+        <enum name="goutham_rounded_light_italic" value="22" />
+        <enum name="goutham_rounded_medium" value="23" />
+        <enum name="goutham_rounded_medium_italic" value="24" />
+        <enum name="liberationmono_regular" value="25" />
+        <enum name="purplle_icon" value="26" />
+    </attr>
+
+    <declare-styleable name="CardStack">
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <attr name="ttlm_defaultStyle" format="reference" />
+
+    <!-- default style -->
+    <declare-styleable name="TooltipLayout">
+        <attr name="ttlm_padding" format="dimension" />
+        <attr name="ttlm_strokeColor" format="color" />
+        <attr name="ttlm_backgroundColor" format="color" />
+        <attr name="ttlm_strokeWeight" format="dimension" />
+        <attr name="ttlm_cornerRadius" format="dimension" />
+        <attr name="ttlm_arrowRatio" format="float" />
+        <attr name="android:textAppearance" />
+        <attr name="android:gravity" />
+        <attr name="ttlm_overlayStyle" format="reference" />
+        <attr name="ttlm_font" format="string" />
+
+        <!-- elevation of the tooltip. Works only on non custom views -->
+        <attr name="ttlm_elevation" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TooltipOverlay">
+        <attr name="android:color" />
+        <attr name="android:alpha" />
+        <attr name="ttlm_repeatCount" format="integer" />
+        <attr name="ttlm_duration" format="integer" />
+        <attr name="android:layout_margin" />
+    </declare-styleable>
+
+</resources>

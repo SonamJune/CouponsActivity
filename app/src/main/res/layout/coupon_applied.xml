@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50dp"
+        android:background="@drawable/white_rounded_18dp_bg">
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/tv_applied"
+            style="@style/man_semi_bold_13ssp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_120dp"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="WELCOME applied" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/tv_successful_saved"
+            style="@style/man_bold_24ssp"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="-2sp"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_applied"
+            tools:text="Successfully!" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/tv_with_coupon"
+            style="@style/man_regular_12ssp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:text="@string/with_this_coupon_code"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_successful_saved" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_with_coupon"
+            app:layout_goneMarginTop="@dimen/_16dp"
+            android:id="@+id/ll_rcy"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="@dimen/_16dp"
+            >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_9dp"
+
+         />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/_64dp"
+            android:layout_height="@dimen/_64dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_with_coupon" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/tv_thanks"
+            style="@style/man_bold_12ssp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:text="@string/_yay_thanks"
+            android:textColor="@color/purplle_base"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ll_rcy" />
+
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:contentDescription="@string/close_drawer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/lottie_coupon"-->
+<!--        android:layout_width="@dimen/_180dp"-->
+<!--        android:layout_height="@dimen/_180dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="@dimen/_16dp"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="false" />-->
+
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.manash.purpllebase.helper.PercentVisibleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/product_list_item_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/_8dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/image_card_1"
+        android:layout_width="@dimen/_74dp"
+        android:layout_height="@dimen/_74dp"
+        app:strokeWidth="@dimen/_1dp"
+        app:strokeColor="@color/divider_grey"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="@dimen/_4dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@color/shade_grey"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+    </com.google.android.material.card.MaterialCardView>
+</com.manash.purpllebase.helper.PercentVisibleLayout>

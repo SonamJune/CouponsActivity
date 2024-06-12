@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_cart_bag"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?selectableItemBackgroundBorderless"
+    android:paddingRight="@dimen/_8dp"
+    android:paddingLeft="@dimen/_8dp"
+    android:paddingTop="@dimen/_2dp">
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/shop_cart"
+        style="@style/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/bag_icon_id"
+        android:textColor="@color/toolbar_item_color"
+        android:textSize="26dp" />
+
+    <com.manash.purpllebase.views.PurplleTextView
+        android:id="@+id/cart_counts"
+        style="@style/small"
+        android:layout_width="@dimen/_17dp"
+        android:layout_height="@dimen/_17dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_toRightOf="@+id/shop_cart"
+        android:background="@drawable/badge_circle"
+        android:gravity="center|center_vertical"
+        android:textSize="@dimen/_11dp"
+        android:textColor="@color/white" />
+</RelativeLayout>

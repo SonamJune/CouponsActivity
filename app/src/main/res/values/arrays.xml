@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="my_profile_items">
+        <item>@string/refer_earn</item>
+        <item>@string/feedback</item>
+        <item>@string/rate_us</item>
+        <item>@string/support</item>
+    </string-array>
+
+    <array name="setting_list">
+        <item>@string/notification</item>
+        <item>@string/edit_profile</item>
+        <item>@string/my_addresses</item>
+        <item>@string/logout</item>
+    </array>
+
+    <string-array name="navigation_drawer_item_login">
+        <item>@string/header</item>
+        <item>@string/shop_categories</item>
+        <item>@string/mega_menu_items</item>
+        <item>@string/brands</item>
+        <item>@string/Offers</item>
+        <item>@string/luxury</item>
+        <item>@string/magazine</item>
+        <item>@string/beauty_assistant</item>
+        <item>@string/salon_and_spa</item>
+        <item>Line</item>
+        <item>@string/about_purplle</item>
+        <item>@string/terms_conditions</item>
+        <item>@string/support</item>
+        <item>@string/feedback</item>
+        <item>@string/version</item>
+    </string-array>
+
+    <string-array name="build_type_switches">
+        <item>TEST</item>
+        <item>SANDBOX</item>
+        <item>PROD</item>
+    </string-array>
+
+    <string-array name="my_account_items">
+        <item>@string/my_favorite</item>
+        <item>@string/my_reviews</item>
+        <item>@string/beauty_profile</item>
+        <item>@string/edit_profile</item>
+        <item>@string/my_addresses</item>
+        <item>@string/payments</item>
+        <item>@string/bank_details_for_refund</item>
+    </string-array>
+
+    <string-array name="user_review_title_list">
+        <item>CONTRIBUTE</item>
+        <item>YOUR REVIEWS</item>
+    </string-array>
+
+    <string-array name="home_category">
+        <item>@string/shop_categories</item>
+        <item>@string/brands</item>
+        <item>@string/Offers</item>
+        <item>@string/luxury</item>
+        <item>@string/magazine</item>
+        <item>@string/beauty_assistant</item>
+    </string-array>
+
+    <string-array name="address_popup_list_items">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="magazine">Magazine</string>
+    <string name="salon_and_spa">Salon and Spa</string>
+    <string name="brands">Brands</string>
+
+    <string-array name="search_hints">
+        <item>@string/search_face_serum</item>
+        <item>@string/search_night_cream</item>
+        <item>@string/search_mascara</item>
+    </string-array>
+</resources>

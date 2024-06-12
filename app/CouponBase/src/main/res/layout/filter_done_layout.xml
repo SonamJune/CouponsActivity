@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_done_layout"
+    android:layout_width="60dp"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true">
+
+    <com.manash.purpllebase.views.PurplleTextView
+        style="@style/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/done_icon_id"
+        android:textColor="@color/toolbar_font_color"
+        android:textSize="26sp" />
+
+</RelativeLayout>

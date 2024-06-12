@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_text">#ffffff</color>
+    <color name="notification_icon_color">#e40980</color>
+    <color name="notification_background_colour">#000000</color>
+    <color name="notification_circular_ripple_color">#D8D4D4</color>
+    <color name="purplle_base">#6600FF</color>
+    <color name="toolbar_item_color">#2c414c</color>
+    <color name="add_to_cart_border">#5B26F5</color>
+</resources>

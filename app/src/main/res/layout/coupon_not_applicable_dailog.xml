@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="@dimen/_20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/title"
+            style="@style/subheading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="@dimen/_20dp" />
+
+        <com.example.couponbase.views.PurplleTextView
+            android:id="@+id/message"
+            style="@style/subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="@dimen/_20dp"
+            android:text="@string/title"
+            android:textColor="@color/metal_saurus_color" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/message"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="end"
+            android:paddingTop="@dimen/_24dp">
+
+            <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/continue_btn"
+                style="@style/body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8dp"
+                android:layout_marginRight="@dimen/_8dp"
+                android:background="?selectableItemBackground"
+                android:padding="@dimen/_8dp"
+                android:text="@string/Continue"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent" />
+
+            <com.example.couponbase.views.PurplleTextView
+                android:id="@+id/remove_btn"
+                style="@style/body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:padding="@dimen/_8dp"
+                android:text="@string/remove"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <com.example.couponbase.views.MaterialProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

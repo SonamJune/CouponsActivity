@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="@dimen/_20dp"
+    android:layout_marginTop="@dimen/_10dp"
+    android:layout_marginRight="@dimen/_20dp"
+    android:layout_marginBottom="@dimen/_10dp">
+
+    <com.example.couponbase.views.PurplleTextView
+        android:id="@+id/check_box"
+        style="@style/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:text="@string/radio_inactive_icon_id"
+        android:textSize="@dimen/_20ssp" />
+
+    <com.example.couponbase.views.PurplleTextView
+        android:id="@+id/coupon_code_text"
+        style="@style/man_bold_12ssp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_6dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_toEndOf="@id/check_box"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
+
+    <com.example.couponbase.views.PurplleTextView
+        android:id="@+id/coupon_text"
+        style="@style/man_bold_12ssp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_toEndOf="@id/coupon_code_text"
+        android:textColor="@color/dark_gray_color" />
+
+    <com.example.couponbase.views.PurplleTextView
+        android:id="@+id/description"
+        style="@style/man_regular_10ssp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coupon_text"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_2dp"
+        android:paddingBottom="@dimen/_13dp"
+        android:layout_marginRight="@dimen/_20dp" />
+
+    <com.example.couponbase.views.PurplleTextView
+        android:id="@+id/expiry"
+        style="@style/man_regular_10ssp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:paddingLeft="@dimen/_20dp"
+        android:paddingRight="@dimen/_20dp"
+        android:paddingBottom="@dimen/_10dp"
+        tools:text="this coupon is not valid for this" />
+</RelativeLayout>

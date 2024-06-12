@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_font_size">12sp</dimen>
+    <dimen name="contact_product_icon_size">75dp</dimen>
+</resources>

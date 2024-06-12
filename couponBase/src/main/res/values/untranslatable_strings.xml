@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="app_name">PurplleBase</string>
+    <string name="build_number" translatable="false">build_number</string>
+    <string name="msg" translatable="false">msg</string>
+
+    <string name="AppsFlyerKey" translatable="false">6CEHaDSvaPoNMBVaZKphPZ</string>
+    <string name="GCM_SENDER_ID" translatable="false">id:274486316738</string>
+    <string name="ga_containerId_test" translatable="false">GTM-54C2B3</string>
+    <string name="ga_containerId" translatable="false">GTM-KWDN35</string>
+    <string name="io_branch_key" translatable="false">key_live_jflMV8MKbvHiDMG3SAHJKmhlsCjCeLZk</string>
+    <string name="io_branch_key_test" translatable="false">key_test_lpnPJ3RRjANlCOG4KwOZQnjnEsfvdN1C</string>
+    <string name="gmail_package" translatable="false">com.google.android.gm</string>
+
+    <string name="pinterest_package" translatable="false">com.pinterest</string>
+    <string name="instagram_package" translatable="false">com.instagram.android</string>
+    <string name="twitter_package" translatable="false">com.twitter.android</string>
+    <string name="google_plus_package" translatable="false">com.google.android.apps.plus</string>
+    <string name="facebook_package" translatable="false">com.facebook.katana</string>
+    <string name="watsapp_package" translatable="false">com.whatsapp</string>
+    <string name="hangout_package" translatable="false">com.google.android.talk</string>
+
+    <string name="from_others_profile_key" translatable="false">from_others_profile</string>
+    <string name="page" translatable="false">page</string>
+    <string name="type_id" translatable="false">type_id</string>
+
+    <string name="video_id_key" translatable="false">video_id_key</string>
+    <string name="user_email_key" translatable="false">user_email</string>
+    <string name="new_person_key" translatable="false">new_person</string>
+    <string name="new_address_key" translatable="false">new_address</string>
+    <string name="pincode_smallcase" translatable="false">pincode</string>
+    <string name="address_type_key" translatable="false">address_type</string>
+    <string name="saved_address" translatable="false">saved_address</string>
+    <string name="image" translatable="false">image</string>
+    <string name="venue_id_key" translatable="false">venue_id</string>
+    <string name="page_key" translatable="false">page</string>
+    <string name="payment_status" translatable="false">payment_status</string>
+    <string name="person_id_key" translatable="false">person_id</string>
+    <string name="remove_untranslatable" translatable="false">remove</string>
+    <string name="user_name_key" translatable="false">user_name_key</string>
+    <string name="beauty_tips_list" translatable="false">beauty_tips_list</string>
+
+    <string name="add_words_conversion_id" translatable="false">add_words_conversion_id</string>
+    <string name="ampliifcation_list" translatable="false">event_amplification</string>
+    <string name="user_segment" translatable="false">user_segment</string>
+    <string name="share_product" translatable="false">share_product</string>
+    <string name="default_string" translatable="false">default</string>
+
+    <string name="address_untranslatable" translatable="false">address</string>
+    <string name="http" translatable="false">http:</string>
+    <string name="http_text" translatable="false">http</string>
+    <string name="type" translatable="false">type</string>
+    <string name="mode_device_type" translatable="false">mode_device_type</string>
+    <!--    success might come in english in some toast, requires lot of string changes skipped for now 9 nov 23-->
+    <string name="success" translatable="false">success</string>
+    <string name="email" translatable="false">email</string>
+    <string name="user_id" translatable="false">user_id</string>
+    <string name="user_name" translatable="false">user_name</string>
+    <string name="type_of_request" translatable="false">typeOfRequest</string>
+    <string name="pincode_untranslatable">Enter Pincode</string>
+    <string name="filter_untranslatable">Filter</string>
+    <string name="delete_untranslatable">Delete</string>
+    <string name="otp">otp</string>
+    <string name="description" translatable="false">description</string>
+    <string name="app_scheme" translatable="false">purplle://open/</string>
+    <string name="items_untranslatable" translatable="false">items</string>
+    <string name="list_type" translatable="false">list_type</string>
+    <string name="list_type_id" translatable="false">list_type_id</string>
+    <string name="list_type_value" translatable="false">list_type_value</string>
+    <string name="device_id" translatable="false">device_id</string>
+    <string name="favorites" translatable="false">favorites</string>
+    <string name="stock_status" translatable="false">stock_status</string>
+    <string name="filter_count" translatable="false">filter_count</string>
+    <string name="category" translatable="false">category</string>
+    <string name="variant_filter" translatable="false">variant_filter</string>
+    <string name="last_selected_position" translatable="false">last selected position</string>
+    <string name="selected_tab_pos" translatable="false">selected_tab_pos</string>
+    <string name="show_notification" translatable="false">show_notification</string>
+    <string name="apply" translatable="false">APPLY</string>
+    <string name="source" translatable="false">source</string>
+    <string name="wishlist" translatable="false">wishlist</string>
+    <string name="mac_id" translatable="false">mac_id</string>
+    <string name="token" translatable="false">token</string>
+    <string name="is_show_notification" translatable="false">isNotificationOn</string>
+    <string name="version" translatable="false">version</string>
+    <string name="following_user_id" translatable="false">following_user_id</string>
+    <string name="action" translatable="false">action</string>
+    <string name="product_id" translatable="false">product_id</string>
+    <string name="quantity" translatable="false">quantity</string>
+    <string name="coupon_code" translatable="false">coupon_code</string>
+    <string name="is_thank_you" translatable="false">isThankYou</string>
+    <string name="brand" translatable="false">brand</string>
+    <string name="purplle" translatable="false">purplle</string>
+    <string name="customercare_email" translatable="false">customercare@purplle.com</string>
+    <string name="orderitem_ids" translatable="false">orderitem_ids</string>
+    <string name="sortBy" translatable="false">sortBy</string>
+    <string name="postal_code" translatable="false">postal_code</string>
+    <string name="title_activity_search" translatable="false">SearchActivity</string>
+    <string name="item_type_id" translatable="false">item_type_id</string>
+    <string name="item_type" translatable="false">item_type</string>
+    <string name="phone" translatable="false">phone</string>
+    <string name="url" translatable="false">url</string>
+    <string name="dob" translatable="false">dob</string>
+    <string name="name" translatable="false">name</string>
+    <string name="gender" translatable="false">gender</string>
+    <string name="house_no" translatable="false">house_no</string>
+    <string name="street1" translatable="false">street1</string>
+    <string name="address_id" translatable="false">address_id</string>
+    <string name="custom" translatable="false">custom</string>
+    <string name="item_id" translatable="false">item_id</string>
+    <string name="Share_untranslatable" translatable="false">Share</string>
+    <string name="cart_total" translatable="false">Order Subtotal</string>
+    <string name="Cart_untranslatable" translatable="false">Cart</string>
+    <string name="search_untranslatable" translatable="false">search</string>
+    <string name="sort_by" translatable="false">sort_by</string>
+    <string name="order_id" translatable="false">order_id</string>
+    <string name="addressee" translatable="false">addressee</string>
+    <string name="v3" translatable="false">v3</string>
+    <string name="q" translatable="false">q</string>
+    <string name="count" translatable="false">count</string>
+    <string name="product" translatable="false">product</string>
+    <string name="faqs_untranslatable" translatable="false">FAQ\'s</string>
+    <string name="ok">ok</string>
+    <string name="login" translatable="false">login</string>
+    <string name="cancel" translatable="false">cancel</string>
+    <string name="title" translatable="false">title</string>
+    <string name="add" translatable="false">add</string>
+    <string name="elite_untranslatable" translatable="false">elite</string>
+    <string name="register">Register</string>
+    <string name="questions_and_answer">Questions &amp; Answers</string>
+    <string name="qna">Q&amp;A</string>
+    <string name="copy_link_untraslatable">Copy link</string>
+    <string name="done_untranslatable">Done</string>
+    <string name="cancel_capital_first_letter_untranslatable">Cancel</string>
+    <string name="rating">Ratings</string>
+    <string name="no">no</string>
+    <string name="list">list</string>
+    <string name="min_order_count">min order count</string>
+    <string name="sub_title">sub_title</string>
+    <string name="variant_view_lowercase">variant_view</string>
+    <string name="add_to_cart_lowercase">add_to_cart</string>
+    <string name="update_untranslatable" translatable="false">Update</string>
+    <string name="mobile_key">mobile</string>
+    <string name="first_name_key">first_name</string>
+    <string name="last_name_key">last_name</string>
+    <string name="story_text">story</string>
+    <string name="feed_text">feed</string>
+    <string name="story_title">story_title</string>
+    <string name="hash_tags_key">hash_tags_key</string>
+    <string name="selected_id_set_list">selected_list</string>
+    <string name="selection_limit">selection_limit</string>
+    <string name="hash_tags">hashtags</string>
+    <string name="is_favorites_key">isFavorites</string>
+    <string name="post_story_pref">post_story_pref</string>
+    <string name="selected_products">selected products</string>
+    <string name="is_from_others_profile">isOthersProfile</string>
+    <string name="story_id">story_id</string>
+    <string name="from_story">fromstory</string>
+    <string name="is_follow">isFollow</string>
+    <string name="is_liked">isLiked</string>
+    <string name="like_count">like_count</string>
+    <string name="story_published">story_published</string>
+    <string name="video_url_key">video_url</string>
+    <string name="transaction_id">transaction_id</string>
+    <string name="story_widget_key">story_widget_key</string>
+    <string name="weburl">weburl</string>
+    <string name="view_type">type</string>
+    <string name="actual_view_type">view_type</string>
+    <string name="is_modified">is_modified</string>
+    <string name="showAnimation">show_animation</string>
+    <string name="list_title">list_title</string>
+    <string name="user_follower_count_key">user_follower_count</string>
+    <string name="feedback_untranslatable">Feedback</string>
+    <string name="start_activity">startActivity</string>
+    <string name="edit_profile_untranslatable">Edit Profile</string>
+    <string name="rate_us_untranslatable">Rate Us</string>
+    <string name="navigation_drawer">navigation drawer</string>
+    <string name="notification_source">notification_source</string>
+    <string name="page_type">page_type</string>
+    <string name="review_item">reviewItem</string>
+    <string name="query_type">query_type</string>
+    <string name="filter_param">filter_param</string>
+    <string name="review">review</string>
+    <string name="like">like</string>
+    <string name="dislike">dislike</string>
+    <string name="is_wallet_used">is_wallet_used</string>
+    <string name="deeplink_url">deep_link</string>
+    <string name="error">error</string>
+    <string name="action_key">action</string>
+    <string name="is_drawer_update">is_drawer_update</string>
+    <string name="seller_id_key">seller_id</string>
+    <string name="completed">Completed</string>
+    <string name="is_order_filter_key">is_order_filter</string>
+    <string name="years_filter_key">years_filter</string>
+    <string name="filter_type_param">filter_type</string>
+    <string name="filter_time_param">filter_time</string>
+    <string name="notify_user_id">notify_user_id</string>
+    <string name="notification_id">notification_id</string>
+    <string name="order_total_untranslatable">Order Total:</string>
+    <string name="display_order_id_key">display_order_id</string>
+    <string name="order_item_count_key">order_item_count</string>
+    <string name="is_cancel_order">is_cancel_order</string>
+    <string name="cancel_reasons_key">cancel_reasons</string>
+    <string name="cancel_reasons_key_en">cancel_reasons_en</string>
+    <string name="return_product_id_key">return_product_id</string>
+    <string name="payment_method_key">payment_method</string>
+    <string name="cod">cod</string>
+    <string name="is_from_return">is_from_return</string>
+    <string name="is_from_review">is_from_review</string>
+    <string name="is_cart_update">isUpdateCart</string>
+    <string name="slide_down">slide_down</string>
+    <string name="is_from_search">isFromSearch</string>
+    <string name="mega_menu_items">megaMenuItems</string>
+    <string name="from_drawer_brand">from_drawer_brand</string>
+    <string name="Offers_untranslatable">Offers</string>
+    <string name="fields">fields</string>
+    <string name="cat_id">cat_id</string>
+    <string name="is_transition_required">isTransitionRequired</string>
+    <string name="no_transition">NoTransition</string>
+    <string name="select_untranslatable">SELECT</string>
+    <string name="position">position</string>
+    <string name="profile_type">profile_type</string>
+    <string name="module">module</string>
+    <string name="module_id">module_id</string>
+    <string name="module_type">module_type</string>
+    <string name="ship_id">ship_id</string>
+    <string name="shipment_id">shipment_id</string>
+    <string name="is_add_to_cart">is_add_to_cart</string>
+    <string name="experimental_id">x_id</string>
+    <string name="widget_id">widget_id</string>
+    <string name="feature_type">feature_type</string>
+    <string name="page_title">page_title</string>
+    <string name="page_number">page_number</string>
+    <string name="feature_value">feature_value</string>
+    <string name="page_value">page_value</string>
+    <string name="feature_position">feature_position</string>
+    <string name="camera_untranslatable">Camera</string>
+    <string name="profile_image">profile_image</string>
+    <string name="image_action">image_action</string>
+    <string name="is_hide_bottom_bar">Is_hide_bottom_bar</string>
+    <string name="request_type">request_type</string>
+    <string name="product_highlights">Product Highlights</string>
+    <string name="helpBy">helpBy</string>
+    <string name="wishlist_count">wishlist_count</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="is_send_page_screen_view">is_send_page_screen_view</string>
+    <string name="is_from_product_detail">isFromProductDetail</string>
+    <string name="is_recommendation">is_recommendation</string>
+    <string name="item_position">item_position</string>
+    <string name="review_type">review_type</string>
+    <string name="offset">offset</string>
+    <string name="review_id">reviewid</string>
+    <string name="config_key">keys</string>
+    <string name="delivery">Delivery</string>
+    <string name="pincode_edit_txt_untranslatable">Pincode*</string>
+    <string name="from_shop">fromShop</string>
+    <string name="is_from_my_address">isFromMyAddress</string>
+    <string name="total_amount">total_amount</string>
+    <string name="action_get">get</string>
+    <string name="mode">mode</string>
+    <string name="salon_text">salon</string>
+    <string name="action_edit">edit</string>
+    <string name="action_add">add</string>
+    <string name="id_key">id</string>
+    <string name="postal_code_key">postal_code</string>
+    <string name="landmark_key">landmark</string>
+    <string name="payment_type">payment_type</string>
+    <string name="is_from_product_listing">isFromListing</string>
+    <string name="description_url">description_url</string>
+    <string name="is_add_to_cart_modified">add_to_cart_modified</string>
+    <string name="is_wish_list_modified">wish_list_modified</string>
+    <string name="is_reviewd">is_reviewd</string>
+    <string name="review_stat">review_stat</string>
+    <string name="reviews_untranslatable">Reviews</string>
+    <string name="shop_categories_untranslatable">Shop Categories</string>
+    <string name="mode_device">mode_device</string>
+    <string name="video_enable">video_enable</string>
+    <string name="mode_device_value">Android</string>
+    <string name="highlight_item">highlight_item</string>
+    <string name="is_from_navigation_drawer">from_nav_drawer</string>
+    <string name="text">text</string>
+    <string name="close_drawer">close_drawer</string>
+    <string name="notification_untranslatable">Notification</string>
+    <!--    Navigation Drawer Adapter view type strings-->
+    <string name="account_item">account_item</string>
+    <string name="drop_down">drop_down</string>
+    <string name="child_text">child_text</string>
+    <string name="seperator">seperator</string>
+
+    <string name="color">color_code</string>
+    <string name="wl">wl</string>
+    <string name="apply_coupon_untranslatable">APPLY COUPON</string>
+    <string name="pagination">pagination</string>
+    <string name="continue_to_check_out">PROCEED TO PAY</string>
+    <string name="cart_price_details">cart_price_details</string>
+    <string name="is_address_count_zero">is_address_count_zero</string>
+    <string name="payment_option_key">payment_option</string>
+    <string name="email_edit_text_digit">0123456789qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-@+.</string>
+    <string name="password_edit_text_digit">0123456789qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM-!@#$%^*()_+.</string>
+    <string name="name_edit_text_digit">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm.\'_\u0020</string>
+    <string name="number_text_digit">0123456789</string>
+    <string name="all_chars_digit">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM,.;\'/?:!@#$%^&amp;;*()_+-{}\u0020</string>
+    <string name="item_id_key">item_id</string>
+    <string name="onboard_display_type">onboard_display_type_new</string>
+    <string name="is_fragment">fragment</string>
+    <string name="gateway">gateway</string>
+    <string name="wallet_id">wallet_id</string>
+    <string name="CVV_hint">cvv</string>
+    <string name="simple_string">simple_string</string>
+    <string name="iterate_image">iterate_image</string>
+    <string name="bullet_string">bullet_string</string>
+    <string name="iterate_text">iterate_text</string>
+    <string name="productId">productId</string>
+    <string name="productid">productid</string>
+    <string name="pageType">pageType</string>
+    <string name="filter_variant">filterVariant</string>
+    <string name="filterBy">filterBy</string>
+    <string name="show_more_untranslatable">Show more</string>
+    <string name="product_information">Product information</string>
+    <string name="try_on_feature">try_on</string>
+    <string name="try_on_lowercase">try on</string>
+    <string name="try_on_initiated">try_on_initiated</string>
+    <string name="use_video">use_video</string>
+    <string name="image_video_popup">image_video_popup</string>
+    <string name="should_reload_try_on_solution">should_reload_try_on_solution</string>
+    <string name="reload_try_on_solution_callback">reloadTryOnSolution</string>
+    <string name="in_app_data">in_app_data</string>
+    <string name="web_caching_enabled">web_caching_enabled</string>
+    <string name="web_resource_version">wv_resource_version</string>
+    <string name="primary_text">primary_text</string>
+    <string name="secondary_text">secondary_text</string>
+    <string name="is_phone_number">is_phone_number</string>
+    <string name="merge">merge</string>
+    <string name="social_login_type">social_login_type</string>
+    <string name="email_or_phone">email_or_phone</string>
+    <string name="screen_type">screen_type</string>
+    <string name="is_from_cart">is_from_cart</string>
+    <string name="show_login_via_password">show_login_via_password</string>
+    <string name="request_for_otp">request_for_otp</string>
+    <string name="social_logo">social_logo</string>
+    <string name="loggedin">loggedin</string>
+    <string name="phone_add">phone_add</string>
+    <string name="image_url">image_url</string>
+    <string name="is_show_delivery">is_show_delivery</string>
+    <string name="serviceable_messaage">serviceable_messaage</string>
+    <string name="serviceable_error_code">serviceable_error_code</string>
+    <string name="filter_details">filter_details</string>
+    <string name="secure_payment_logo">secure_payment_logo</string>
+    <string name="ok_got_it">OK, Got it</string>
+    <string name="card_logo">card logo</string>
+    <string name="proceed">PROCEED</string>
+    <string name="failed">failed</string>
+    <string name="usable_wallet_amount">usable_wallet_amount</string>
+    <string name="enable_codpc_payment">enable_codpc_payment</string>
+    <string name="recos">recos</string>
+    <string name="module_value">module_value</string>
+    <string name="card_number">card_number</string>
+    <string name="failure_message">failure_message</string>
+    <string name="cart_count">cart_count</string>
+    <string name="avoid_shipping">Avoid Shipping? </string>
+    <string name="email_id">email_id</string>
+    <string name="ok_got_it_text_untranslated">OK, GOT IT</string>
+    <string name="is_elite">elite</string>
+    <string name="track_shipment_page">track_shipment_page</string>
+    <string name="address_list">address_list</string>
+    <string name="is_default">is_default</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://purplle.com/.well-known/assetlinks.json\" }]</string>
+    <string name="is_branch_init_required">is_branch_init_required</string>
+    <string name="return_page">return_page</string>
+    <string name="collect_bank_details">collect_bank_details</string>
+    <string name="return_add_image">return_add_image</string>
+    <string name="write_a_review_page">write_a_review_page</string>
+    <string name="SR_ID">sr_id</string>
+    <string name="creator_id">creator_id</string>
+    <string name="product_details_untranslatable">Product Details</string>
+    <string name="mode_device_android">android</string>
+    <string name="purplle_credit">purplle_credit</string>
+    <string name="delete_account">delete_account</string>
+    <string name="elite_mem_page">elite_mem_page</string>
+    <string name="alternate_phone">alternate_phone</string>
+    <string name="method_version">version</string>
+    <string name="address_label">address_lable</string>
+    <string name="apply_coupon_txt_untranslatable">Apply Coupon</string>
+    <string name="is_registered">is_registered</string>
+    <string name="branch_init_exception">BRANCH_INIT_EXCEPTION</string>
+    <string name="in_app_review_exception_by_OS">IN_APP_REVIEW_OS_EXCEPTION</string>
+    <string name="in_app_review_exception">IN_APP_REVIEW_EXCEPTION</string>
+    <string name="default_str">default</string>
+    <string name="in_app_review_exception_msg">in-app review request failure</string>
+    <string name="is_for_number_verification">is_for_number_verification</string>
+    <string name="login_to_become_elite">Login to become an elite member</string>
+    <string name="is_coupon_code">is_coupon_code</string>
+    <string name="login_onboard_image">login_onboard_image</string>
+    <string name="nav_deeplink">nav_deeplink</string>
+    <string name="number_prefix_91">+91</string>
+    <string name="customer_images_untranslatable">"Customer Images "</string>
+    <string name="has_more">has_more</string>
+    <string name="review_list">review_list</string>
+    <string name="request_tag_for_gridCounter">request_tag</string>
+    <string name="product_name">"product_name"</string>
+    <string name="timer_notification_image">timer_notification_image</string>
+    <string name="lazy_pay_small">lazypay</string>
+    <string name="lazy_pay_big">LAZYPAY</string>
+    <string name="justpay_detail">justPayDetails</string>
+    <string name="lazy_pay_dialog">LazyPay Dialog</string>
+    <string name="elite_auto_add_strip">Elite_auto_add_strip</string>
+    <string name="app_link"><![CDATA[https://play.google.com/store/apps/details?id=com.manash.purplle&hl=en_US&gl=US]]></string>
+    <string name="app_update">App_Update</string>
+    <string name="app_update_tag">bottom_app_update</string>
+    <string name="recommendedUpdate">recommendedUpdate</string>
+    <string name="dissmiss">Dismiss</string>
+    <string name="live_stream_notification">Live Stream Notification</string>
+    <string name="video_id">videoId</string>
+    <string name="navigation_bar_height">navigation_bar_height</string>
+    <string name="dimen">dimen</string>
+    <string name="android">android</string>
+    <string name="height">height</string>
+    <string name="keypad_open">keypadOpen</string>
+    <string name="keypad_close">keypadClose</string>
+    <string name="is_live">isLive</string>
+    <string name="is_dialog_open">isDialogOpen</string>
+    <string name="live_stream_link">liveStreamLink</string>
+    <string name="api_url">apiUrl</string>
+    <string name="top_slot">top_slot</string>
+    <string name="middle_slot">middle_slot</string>
+    <string name="bottom_slot">bottom_slot</string>
+    <string name="package_truecaller">package</string>
+    <string name="truecaller_signature">signature</string>
+    <string name="turecaller_payload">truecaller_payload_verfication</string>
+    <string name="truecaller_login">truecaller_login</string>
+    <string name="truecaller_register">truecaller_registration</string>
+    <string name="delivery_icon">delivery_icon</string>
+    <string name="from_screen">from_screen_authentication</string>
+    <string name="livestream_video">livestream_video</string>
+    <string name="text_plain">text/plain</string>
+    <string name="bottom_fragment">bottom_fragment</string>
+    <string name="typeId">typeId</string>
+    <string name="screen_name">screenName</string>
+    <string name="products_response">productsResponse</string>
+    <string name="is_elite_key">is_elite</string>
+    <string name="log_out">logOut</string>
+    <string name="log_in_success">logInSuccess</string>
+    <string name="flutter">Flutter</string>
+    <string name="user_fragment">user_fragment</string>
+    <string name="check_delivery">check_delivery</string>
+    <string name="item">item</string>
+    <string name="video_mode">video_mode</string>
+    <string name="full">full</string>
+    <string name="section_title">section_title</string>
+    <string name="wishListField">wish_list</string>
+    <string name="login_phone_event">login_phone</string>
+    <string name="registration_phone_event">registration_phone</string>
+    <string name="logout_event_str">logout</string>
+    <string name="truecaller_other_str">truecaller-other-number</string>
+    <string name="image_str">image</string>
+    <string name="async">async</string>
+    <string name="getservice_api">/api/account/user/getservice</string>
+    <string name="getservice_api_v2">/neo/cart/v2/pincode-check</string>
+    <string name="user_address_api">/api/common/users/useraddresses</string>
+    <string name="user_save_api">/api/common/users/saveaddress</string>
+    <string name="city_state_postal_code_api">/api/common/users/citystatebypostal</string>
+    <string name="jpeg_extension">.jpeg</string>
+    <string name="skin_analyzer_result">skin_analyzer_result</string>
+    <string name="skin_analyzer_result_name">skin analyzer result</string>
+    <string name="skin_analyzer_image">skin_analyzer_image</string>
+    <string name="skin_alalyzing_failed_message">skin analyzing failed</string>
+    <string name="skin_analyzer_error">skin_analyzer_result_error</string>
+    <string name="try_again_selfie_">try_again</string>
+    <string name="disable_retake_button">disableRetakeButton</string>
+    <string name="image_uri">imageUri</string>
+    <string name="image_uri_passed_null">image uri passed is null</string>
+    <string name="consent">consent</string>
+    <string name="skin_analyzer_consent">skin_analyzer_consent</string>
+    <string name="take_selfie_">take_selfie</string>
+    <string name="skip_selfie_">skip_selfie</string>
+    <string name="should_disable_retake_button_for_concern">shouldDisableRetakeButtonForConcern</string>
+    <string name="skin_analyzer_result_error2">skin_analyzer_result_error2</string>
+    <string name="over_all">overall</string>
+    <string name="result_loading">result_loading</string>
+    <string name="error2">error2</string>
+    <string name="overallError">overallError</string>
+    <string name="skin_expert_untranslatable">Skin Expert</string>
+    <string name="cross_button">cross button</string>
+    <string name="skin_quiz_">skin_quiz</string>
+    <string name="subtype">sub_types</string>
+    <string name="concern">concern</string>
+    <string name="severity">severity</string>
+    <string name="quiz_id">quiz_id</string>
+    <string name="skinAnalyser">skinAnalyser</string>
+    <string name="useCase">useCase</string>
+    <string name="result_animation">result_animation</string>
+    <string name="result_summary">result_summary</string>
+    <string name="result_guide">result_guide</string>
+    <string name="get_detailed_result">get_detailed_result</string>
+    <string name="skin_analyzer">skin_analyzer</string>
+    <string name="skin_analyzer_user_image_folder_name">Purplle</string>
+    <string name="skin_analyzer_user_image_name">IMG_skinAnalyzer</string>
+    <string name="skin">skin</string>
+    <string name="retake_selfie_">retake_selfie</string>
+    <string name="other_focus_areas">other_focus_areas</string>
+    <string name="discover_routine_for_untranslatable">Discover Routine for</string>
+    <string name="skin_type">skin_type</string>
+    <string name="skip_onboard_untranslatable">Skip</string>
+    <string name="center">center</string>
+    <string name="slotPosition">slot_position</string>
+    <string name="onBoard_page_title">Onboarding Page</string>
+    <string name="mute_str">mute</string>
+    <string name="unmute_str">unmute</string>
+    <string name="bureau_registration">bureau_registration</string>
+    <string name="bureau_login">bureau_login</string>
+    <string name="country_code">91</string>
+    <string name="bureau_transactionId">bureau_transactionId</string>
+    <string name="bureau">bureau</string>
+    <string name="search_bar">bar</string>
+    <string name="av">av</string>
+    <string name="user_key">user_key</string>
+    <string name="widget_type">widget_type</string>
+    <string name="limit">limit</string>
+    <string name="association">association</string>
+    <string name="identifier">identifier</string>
+    <string name="arrow">arrow</string>
+    <string name="myOrderListScreen">myOrderListScreen</string>
+    <string name="is_from_thank_you">isFromThankYou</string>
+    <string name="filter_clear">filter_clear</string>
+    <string name="filter_close">filter_close</string>
+    <string name="filter_value">filter_value</string>
+    <string name="android_app">AndroidApp</string>
+    <string name="min_price">min_price</string>
+    <string name="max_price">max_price</string>
+    <string name="referring_params">referring_params</string>
+    <string name="branch_init_event">branch_init_event</string>
+    <string name="click">click</string>
+    <string name="offer_item_key">offer_item</string>
+    <string name="segment">segment</string>
+    <string name="question_mark_icon">\?</string>
+    <string name="star_icon">star icon</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_bar_5">/5</string>
+    <string name="_0">0</string>
+    <string name="also_bought_untranslatable">Also Bought</string>
+    <string name="product_share">product_share</string>
+    <string name="read_all_product_details_untranslatable">Read all product details</string>
+    <string name="aplus_content">aplus_content</string>
+    <string name="see_full_ingredient_list_untranslatable">See Full List</string>
+    <string name="aplus">a+_content</string>
+    <string name="prod_info">prod_info</string>
+    <string name="ingredients_list">ingredients_list</string>
+    <string name="text_icon">text_icon</string>
+    <string name="pdp_video_type">video_vimeo</string>
+    <string name="widgets">widgets</string>
+    <string name="infinite_scrolling">Infinite_Scrolling</string>
+    <string name="Purplle_Promise_Popup">Purplle_Promise_Popup</string>
+    <string name="genuine">Genuine</string>
+    <string name="return_">Return</string>
+    <string name="free_delivery">Free_Delivery</string>
+    <string name="video">video</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="bottom_tab">bottom_tab</string>
+    <string name="brand_store">brand_store</string>
+    <string name="category_store">category_store</string>
+    <string name="FAQ">FAQ</string>
+    <string name="variant_popup">variant_popup</string>
+    <string name="variant_select">variant_select</string>
+    <string name="top25">top25</string>
+    <string name="bottom_sheet">bottomSheet</string>
+    <string name="is_logged_in_key">is_logged_in</string>
+    <string name="pdp">PDP</string>
+    <string name="helpful_small">helpful</string>
+    <string name="review_image">review_image</string>
+    <string name="check_ab">checkAB</string>
+    <string name="product_view_key">product_view</string>
+    <string name="join_now_key">join_now</string>
+    <string name="banner">banner</string>
+    <string name="slot_key">slot</string>
+    <string name="image_failed">image_failed</string>
+    <string name="video_gallery">video_gallery</string>
+    <string name="looks_gallery">looks_gallery</string>
+    <string name="review_this_product">Review this product</string>
+    <string name="their_is_no_product_for_review">There are no reviews for this product</string>
+    <string name="be_the_first_to_review_all_caps">BE THE FIRST TO REVIEW</string>
+    <string name="cart_">cart</string>
+    <string name="shipping_information_key">shipping_information</string>
+    <string name="write_review_key">Write_Review</string>
+    <string name="read_all_reviews_key">read_all_reviews</string>
+    <string name="product_overview_key">product_overview</string>
+
+    <string name="english">English</string>
+    <string name="marathi">मराठी</string>
+    <string name="telugu">లుగు</string>
+    <string name="hindi">हिंदी</string>
+    <string name="images">images</string>
+    <string name="reviews_shade_key">reviews_shade</string>
+    <string name="most_helpful_key">most_helpful</string>
+    <string name="most_recent_key">most_recent</string>
+    <string name="product_reivew_key">product_reivew</string>
+    <string name="filter_small">filter</string>
+    <string name="clear_highlight_filter_key">clear_highlight_filter</string>
+    <string name="check_box_key">check_box</string>
+    <string name="looks_section_key">looks_section</string>
+    <string name="referrer">referrer</string>
+    <string name="event_data">event_data</string>
+    <string name="target_entity_id">target_entity_id</string>
+    <string name="clicked_branch_link">clicked_branch_link</string>
+    <string name="is_first_session">is_first_session</string>
+    <string name="medium">medium</string>
+    <string name="campaign">campaign</string>
+    <string name="visitor_ppl">visitorPpl</string>
+    <string name="gclid">gclid</string>
+    <string name="target">target</string>
+    <string name="invalid_link">Invalid link</string>
+    <string name="double_tap_left">double_tap_left</string>
+    <string name="double_tap_right">double_tap_right</string>
+    <string name="back_close_player">back_close_player</string>
+    <string name="swipe_down">swipe down</string>
+    <string name="swipe_up">swipe up</string>
+    <string name="tell_us_more_about_yourself_untranslatable">Tell us more about yourself</string>
+    <string name="show_onboarding_form">show_onboarding_screen</string>
+    <string name="info_save">info_save</string>
+    <string name="beauty_prof_onboarding_data">beauty_prof_onboarding_data</string>
+    <string name="shop_home">shop_home</string>
+    <string name="beauty_quiz">beauty_quiz</string>
+    <string name="resend">resend</string>
+    <string name="refer_earn_text">refer_and_earn</string>
+    <string name="mailto_scheme">mailto</string>
+    <string name="feedback_email">wecare4u@purplle.com</string>
+    <string name="purplle_app_version_text">\"Purplle Android APP (version \"</string>
+    <string name="latest_app_version">latest_app_version</string>
+    <string name="country_code_dash">+91 -&#160;</string>
+    <string name="location_connected">Location service connected</string>
+    <string name="location_suspended">Location service connection suspended</string>
+    <string name="current_location">Current location</string>
+    <string name="call_pincode">callPincodeApi</string>
+
+    <string name="prelim_path">api/common/preliminarystate</string>
+    <string name="aboutme_path">account/user/aboutme</string>
+    <string name="share_lowercase">share</string>
+    <string name="similar_products_key">similar_product</string>
+    <string name="similar_videos_key">similar_videos</string>
+    <string name="follow_lowercase">follow</string>
+    <string name="product_detail_key">productDetail</string>
+    <string name="product_image_key">product_image</string>
+    <string name="review_gallery_image">review_gallery_image</string>
+    <string name="rating_and_reviews_key">rating_and_reviews</string>
+    <string name="video_bar_click">video_bar_click</string>
+    <string name="yay_thanks_untranslatable">YAY! THANKS</string>
+    <string name="gift_selection">gift selection</string>
+    <string name="joining_gift">joining gift</string>
+    <string name="cross">cross</string>
+    <string name="joining_gift_select">joining_gift_select</string>
+    <string name="joining_gift_auto_add">joining_gift_auto_add</string>
+    <string name="elite_pro">elite_pro</string>
+    <string name="payment_mode_untranslatable">Payment Mode</string>
+    <string name="wallet">wallet</string>
+    <string name="link">link</string>
+    <string name="add_upi_bottomsheet_fragment">add_upi_bottomsheet_fragment</string>
+    <string name="cart_total_key">cart_total</string>
+    <string name="client_id">clientId</string>
+    <string name="_android_key">_android</string>
+    <string name="service">service</string>
+    <string name="payload">payload</string>
+    <string name="payment_retry">payment_retry</string>
+    <string name="retry_small_case">retry</string>
+    <string name="try_other_payment_options">try_other_payment_options</string>
+    <string name="pay_on_delivery">pay_on_delivery</string>
+    <string name="cod_all_caps">COD</string>
+    <string name="is_purplle_credit_used">is_purplle_credit_used</string>
+    <string name="pay_by">payby</string>
+    <string name="method_type">method_type</string>
+    <string name="creator_order">create_order</string>
+    <string name="is_save_payment_reference">is_save_payment_reference</string>
+    <string name="net_banking_bottomsheet_fragment">net_banking_bottomsheet_fragment</string>
+    <string name="debit_card_fragment">debit_card_fragment</string>
+    <string name="net_banking_fragment">net_banking_fragment</string>
+    <string name="alert_small">alert</string>
+    <string name="card_txn">cardTxn</string>
+    <string name="card_number_key">cardNumber</string>
+    <string name="card_exp_Month_key">cardExpMonth</string>
+    <string name="card_exp_year_key">cardExpYear</string>
+    <string name="card_security_code_key">cardSecurityCode</string>
+    <string name="save_to_locker_key">saveToLocker</string>
+    <string name="payment_method_just_pay">paymentMethod</string>
+    <string name="card">CARD</string>
+    <string name="add_card_key">add_card</string>
+    <string name="visa">VISA</string>
+    <string name="american">AMERICAN</string>
+    <string name="master">MASTER</string>
+    <string name="rupay">RUPAY</string>
+    <string name="plus_character">+</string>
+    <string name="new_upi">NEW_UPI</string>
+    <string name="upi_caps">UPI</string>
+    <string name="add_new_upi">add_new_upi</string>
+    <string name="upi_sdk_present">upiSdkPresent</string>
+    <string name="upi_txn">upiTxn</string>
+    <string name="cust_vpa">custVpa</string>
+    <string name="payment_small">payment</string>
+    <string name="saved_upi">SAVED_UPI</string>
+    <string name="payment_listing">payment_listing</string>
+    <string name="cod_payment_option">cod_payment_option</string>
+    <string name="api_shop_createorder">/api/shop/createorder</string>
+    <string name="api_shop_upi_validation">/api/shop/upi_validation</string>
+    <string name="create_wallet_key">createWallet</string>
+    <string name="wallet_name">walletName</string>
+    <string name="mobile_number_key">mobileNumber</string>
+    <string name="cart_item">cart_item</string>
+    <string name="request_activity">request_activity</string>
+    <string name="pdp_2_elite">PDP2Elite</string>
+    <string name="common_str">common</string>
+    <string name="ab_exp_foryou_flag">ab_experiment_foryou</string>
+    <string name="bottom_nav">bottom_nav</string>
+    <string name="beauty_studio">Beauty Studio</string>
+    <string name="shop_home_str">Shop home</string>
+    <string name="user_Id">userID</string>
+    <string name="skin_analyzer_type">skinAnalyzer</string>
+    <string name="modal_bottom_sheet">ModalBottomSheet</string>
+    <string name="selected_location_text">selectedLocationText</string>
+    <string name="pincode_str">pincode</string>
+    <string name="city_str">city</string>
+    <string name="locality">locality</string>
+    <string name="country">country</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="state">state</string>
+    <string name="shipment_edd">shipment_edd</string>
+    <string name="dob_string">dobString</string>
+    <string name="edit_dob">editDob</string>
+    <string name="volley_excep_not_handled">Exception not handled by Volley</string>
+    <string name="volley_error_null">Volley error is null</string>
+    <string name="volley_timeouterror_format">com.android.volley.TimeoutError</string>
+    <string name="timeout_error_str">timeout_error</string>
+    <string name="elite_congratulation">Elite congratulation</string>
+    <string name="_elite_congratulation">Elite_congratulation</string>
+    <string name="freebie_page">freebie_page</string>
+    <string name="offer">Offer</string>
+    <string name="choose_your_freebie">choose_your_freebie</string>
+    <string name="option">option</string>
+    <string name="shop_more">shop_more</string>
+    <string name="upsell_widget">upsell_widget</string>
+    <string name="apply_coupon_w_dash">apply-coupon</string>
+    <string name="is_from_elite_mem_page">is_from_elite_mem_page</string>
+    <string name="_elite_pro">elite pro</string>
+    <string name="android_id">android_id</string>
+    <string name="is_emulator">is_emulator</string>
+    <string name="user">user</string>
+    <string name="id">id</string>
+    <string name="key_page_no">page_no</string>
+    <string name="stream_id">stream_id</string>
+    <string name="type_key">type</string>
+    <string name="offers_untranslatable">Offers</string>
+    <string name="from_address">fromAddress</string>
+    <string name="see_details_untranslatable">See details</string>
+    <string name="page_type_dialog">PAGE_TYPE</string>
+    <string name="buyit_together_expand">buyit_together_expand</string>
+    <string name="fbt_tab">fbt_tab</string>
+    <string name="fbt">fbt</string>
+    <string name="product_view">product_view</string>
+    <string name="_coupon_applied">coupon_applied</string>
+    <string name="apply_coupon_str">apply_coupon</string>
+    <string name="listing_item">listing_item</string>
+    <string name="main_offer_check">main_available_offer_check</string>
+    <string name="cart_item_offer_nudge">cart_item_offer_nudge</string>
+    <string name="all_available_offer_check">all_available_offer_check</string>
+    <string name="cart_item_offer_applied">cart_item_offer_applied</string>
+    <string name="applied_offer_check">applied_offer_check</string>
+    <string name="ab_testing_value">abTestingValue</string>
+    <string name="offer_nudge">offer_nudge</string>
+    <string name="offer_nudge_type">pdp_offer_nudge</string>
+    <string name="offer_nudge_subtype">pdp_offer_check</string>
+    <string name="product_gallery">product_gallery</string>
+    <string name="camera_lowercase">camera</string>
+    <string name="gallery_lowercase">gallery</string>
+    <string name="registered_successfully_untranslated">Registered Successfully</string>
+    <string name="auto_authenticated_untranslated">Auto-authenticated</string>
+    <string name="login_successfully_untranslated">Login Successfully</string>
+    <string name="info_str">info</string>
+    <string name="header_title">header_title</string>
+
+    <!--    Rechecked items-->
+    <string name="unfollow_untranslatable">unfollow</string>
+    <string name="follow_untranslatable">Follow</string>
+    <string name="yes_untranslatable">yes</string>
+    <string name="add_to_cart_text_untranslatable">ADD TO CART</string>
+    <string name="added_to_cart_untranslatable">Added to cart</string>
+    <string name="story">story</string>
+    <string name="bank_details_for_refund_untranslatable">Bank Details (For Refund)</string>
+    <string name="my_orders_screen_untranslatable">My Orders</string>
+    <string name="all">All</string>
+    <string name="click_str">click</string>
+    <string name="recommendation">recommendation</string>
+    <string name="with_atc_variant">with_atc</string>
+    <string name="with_review_ratings_variant">with_review_ratings</string>
+    <string name="product_detail">product_detail</string>
+    <string name="invalid">Invalid</string>
+    <string name="home_untranslatable">Home</string>
+    <string name="override_pending_key">override_pending</string>
+    <string name="true_">true</string>
+    <string name="false_">false</string>
+    <string name="hold_on_key">hold_on</string>
+    <string name="link_caps_untranslatable">Link</string>
+    <string name="office_untranslatable">Office</string>
+    <string name="other_untranslatable">Other</string>
+    <string name="slide">slide</string>
+    <string name="scroll">scroll</string>
+    <string name="pending_key">pending</string>
+    <string name="lang_code">lang_code</string>
+    <string name="language_options">language_options</string>
+    <string name="language_selection">Language_selection</string>
+    <string name="continue_untranslatable">continue</string>
+    <string name="translate_review">Translate Review</string>
+    <string name="choose_language">Choose_Language</string>
+    <string name="view_all_text_untranslateable">View all</string>
+    <string name="page_type_value_dialog">PAGE_TYPE_VALUE</string>
+    <string name="language_code">language_code</string>
+
+    <!--    Completed 1 round of string separation 9 Nov 2023 String.xml  4Nov-->
+    <!--  Recheck below 2 strings-->
+    <string name="for_you_api_url_default">/beauty-profile/userBeautyProfile/getForYouDetails</string>
+    <string name="skin_analyzer_deeplink_default">purplle.com://skinAnalyzer?gender=male</string>
+    //third party toggle keys
+    <string name="third_party_toggle_android">third_party_toggle_android</string>
+    <string name="bureau_toggle">bureau_toggle</string>
+    <string name="truecaller_toggle">truecaller_toggle</string>
+    <string name="reblaze_toggle">reblaze_toggle</string>
+    <string name="trustkit_toggle">trustkit_toggle</string>
+    <string name="elite_auto_renew_strip">elite_renew_new</string>
+    <string name="elite_cue_str">elite_cue</string>
+    <string name="coupon_response">Coupon Response</string>
+    <string name="vernacular_ab_experiment">vernacular_ab_experiment</string>
+    <string name="quick_selection">quick_selection</string>
+    <string name="product_ids_key">product_ids</string>
+    <string name="male_untranslatable">male</string>
+    <string name="female_untranslatable">female</string>
+    <string name="voice_search">Voice Search</string>
+    <string name="voice_search_result">voice_search_result</string>
+    <string name="search_bar_hints">search_bar_hints</string>
+    <string name="search_mascara">Search \"Mascara\"</string>
+    <string name="search_face_serum">Search \"Face Serum\"</string>
+    <string name="search_night_cream">Search \"Night Cream\"</string>
+    <string name="cod_sms_verification_number">+91 92233 00222</string>
+    <string name="cod_verification_number">+91 80395 91139</string>
+    <string name="use_purplle_in_your_language">Use Purplle in your language</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="change_language">Change Language</string>
+    <string name="try_purplle_in_your_language">Try Purplle in your language</string>
+    <string name="menus">menus</string>
+    <string name="vernacular_enable">vernacular_enable</string>
+    <string name="payment_cancelled_by_user_untranslatable">Payment Cancelled by User</string>
+    <string name="force_update">isForceUpdate</string>
+    <string name="app_force_update_android">app_force_update_android</string>
+    <string name="update_force">Force_Update</string>
+
+
+    <!--   string for add New address page -->
+    <string name="address_info_untranslatable">Address info</string>
+    <string name="use_your_location_untranslatable">Use my location</string>
+    <string name="please_enter_valid_pin_code_untranslatable">Please enter valid pincode</string>
+    <string name="city_with_star_untranslatable">City*</string>
+    <string name="state_with_star_untranslatable">State*</string>
+    <string name="house_flat_office_no__untranslatable">House/Flat/Office No.*</string>
+    <string name="address_edit_txt_untranslatable">Address*</string>
+    <string name="landmark_edit_txt_untranslatable">Landmark</string>
+    <string name="contact_info_untranslatable">Contact info</string>
+    <string name="name_edit_text_untranslatable">Name*</string>
+    <string name="mobile_number_star_untranslatable">Mobile Number*</string>
+    <string name="address_type_str_untranslatable">Address type</string>
+    <string name="enter_custom_address_type_untranslatable">Enter custom address type</string>
+    <string name="adreed_type_prefence_untranslatable">Address type preferences are used to plan your delivery. However,
+    \nshipment can sometime arrive early or late that plan</string>
+    <string name="save_address_untranslatable">Save Address</string>
+    <string name="new_address_untranslatable">Add New Address</string>
+    <string name="edit_address_untranslatable">Edit Address</string>
+    <string name="need_location_permission_untranslatable">Need location permission</string>
+    <string name="pin_code_field_err_msg_untranslatable">Pin code field cannot be empty!</string>
+    <string name="invalid_pin_untranslatable">Invalid Pin code!</string>
+    <string name="house_no_field_err_msg_untranslatable">House No. field cannot be empty!</string>
+    <string name="addr_field_err_msg_untranslatable">Address field cannot be empty!</string>
+    <string name="name_field_err_msg_untranslatable">Name field cannot be empty!</string>
+    <string name="number_field_err_msg_untranslatable">Not Valid Number</string>
+    <string name="please_select_address_untranslatable">Please select address type</string>
+    <string name="enter_other_address_untranslatable">Please enter other address</string>
+    <string name="service_not_available_msg_untranslatable">Service Not Available for This Postal Code</string>
+    <string name="empty_result_message_untranslatable">No Result Found.</string>
+    <string name="network_failure_msg_untranslatable">Please Check Network Connection</string>
+    <string name="address_added_msg_untranslatable">Address added successfully</string>
+    <string name="address_updated_msg_untranslatable">Address updated successfully</string>
+    <string name="no_location_found_untranslatable">No Location Found! Please try again </string>
+    <string name="select_reason_untranslatable">Select Reason</string>
+    <string name="others_text_untranslatable">Other(s)</string>
+
+    <string name="know_more_unstranslatable">know_more</string>
+    <string name="view_details_unstranslatable">view_details</string>
+    <string name="shipping_charge">shipping_charge</string>
+    <string name="small_cart_charge">small_cart_charge</string>
+    <string name="shipping_and_other_charges_unstranslatable">shipping_and_other_charges</string>
+    <string name="shipping_charges_popup">shipping_charges_popup</string>
+    <string name="shipping_charges_comms">shipping_charges_comms</string>
+    <string name="small_cart_charges_popup">small_cart_charges_popup</string>
+    <string name="small_cart_charges_comms">small_cart_charges_comms</string>
+    <string name="small_cart_charge_info">small_cart_charge_info</string>
+    <string name="charge_info">charge_info</string>
+    <string name="proceed_anyways">proceed_anyways</string>
+    <string name="proceed_event_type">proceed</string>
+    <string name="proceed_event_value">proceed_to_pay</string>
+    <string name="ticket_history">Ticket History</string>
+    <string name="ticket_detail">Ticket Detail</string>
+
+    <string name="user_phone" translatable="false">user_phone</string>
+    <string name="quantity_str_non_translate" translatable="false">Quantity</string>
+    <string name="cvv_hint_asterisk">CVV*</string>
+    <string name="preferred_payment">preferred_payment</string>
+    <string name="change_event_value">change</string>
+    <string name="juspay_payload">juspay_payload</string>
+    <string name="payment_details">payment_details</string>
+    <string name="payment_failure_messages">payment_failure_messages</string>
+    <string name="upi_intent">upi_intent</string>
+    <string name="display_note">displayNote</string>
+    <string name="pay_with_app">payWithApp</string>
+    <string name="price_per_unit_ab_testing">price_per_unit_ab_testing</string>
+    <string name="str_quantities">Quantities</string>
+    <string name="str_listing">listing</string>
+    <string name="is_clevertap_enabled">is_clevertap_enabled</string>
+    <string name="atc_popup_recos_experiment">atc_popup_recos_experiment</string>
+    <string name="express_payment">express_payment</string>
+</resources>

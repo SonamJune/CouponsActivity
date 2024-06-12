@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keys Used in application -->
+    <string name="app_name">Purplle</string>
+<!--    <string name="facebook_app_id">@string/FACEBOOK_APP_ID</string>//298617716861935-->
+</resources>

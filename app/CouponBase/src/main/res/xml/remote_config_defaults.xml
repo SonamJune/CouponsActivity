@@ -1,0 +1,100 @@
+<defaultsMap>
+    <entry>
+        <key>is_criteo_enabled</key>
+        <value>true</value>
+    </entry>
+<!--    <entry>-->
+<!--        <key>onboard_display_type</key>-->
+<!--        <value>{ "value": 1, "data": [-->
+<!--                    {-->
+<!--                        "image_url": "https://media6.ppl-media.com/mediafiles/ecomm/promo/1591351313_onboarding-3-x.jpg"-->
+<!--                    }-->
+<!--                ]-->
+<!--            }-->
+<!--        </value>-->
+<!--                <value>{ "value" : 1, "data" : [-->
+<!--                    {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1591351313_onboarding-3-x.jpg",-->
+<!--                    "deeplink":"purplle.com://cart"},-->
+<!--                    {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023118_onboarding-2.jpg",-->
+<!--                    "deeplink":""},-->
+<!--                    {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023119_onboarding-3.jpg",-->
+<!--                    "deeplink":""},-->
+<!--                    {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023119_onboarding-4.jpg",-->
+<!--                    "deeplink":""} ] }-->
+<!--                </value>-->
+<!--        <value>-->
+<!--            {"value":1,"data":[-->
+<!--            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1596618184_325x440.jpg",-->
+<!--            "deeplink":"purplle.com://cart"},-->
+<!--            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1596618185_650x880.jpg",-->
+<!--            "deeplink":"purplle.com://offers"},-->
+<!--            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1596618187_975x1320.jpg",-->
+<!--            "deeplink":"purplle.com://offers"}]}-->
+<!--        </value>-->
+<!--   </entry>-->
+    <entry>
+        <key>test_onboard_display_type</key>
+        <value>{ "value" : 1, "data" : [
+            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023118_onboarding-1.jpg",
+            "deeplink":"purplle.com://beautyOnBoardInfo"},
+            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023118_onboarding-2.jpg",
+            "deeplink":""},
+            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023119_onboarding-3.jpg",
+            "deeplink":"purplle.com://cart"},
+            {"image_url":"https://media6.ppl-media.com/mediafiles/ecomm/promo/1526023119_onboarding-4.jpg",
+            "deeplink":""} ] }
+        </value>
+    </entry>
+    <entry>
+        <key>onboard_snackbar_text</key>
+        <value>To get personalized recommendation complete beauty profile</value>
+    </entry>
+
+    <entry>
+        <key>beauty_tips_list</key>
+        <value>["Everyday is fashion show and the world is the runway - Coco Chanel"]</value>
+    </entry>
+    <entry>
+        <key>search_bar_hints</key>
+        <value>["Search \"Face Serum\"", "Search \"Night Cream\"", "Search \"Mascara\""]</value>
+    </entry>
+    <entry>
+        <key>add_words_conversion_id</key>
+        <value>978976885</value>
+    </entry>
+    <entry>
+        <key>transaction_cancel_info</key>
+        <value>The amount deducted from the purplle wallet will be credited back in the next 30
+            minute.
+        </value>
+    </entry>
+    <entry>
+        <key>transaction_cancel_message</key>
+        <value>The amount deducted from the purplle wallet will be credited back in the next 30
+            minute, wan't to continue?
+        </value>
+    </entry>
+
+    <entry>
+        <key>feedback_option_list</key>
+        <value>["Pricing","Look &amp; Feel", "Confusing", "Availaibility of Products", "Reason Not
+            Listed"]
+        </value>
+    </entry>
+    <entry>
+        <key>image_download_type</key>
+        <value>v1</value>
+    </entry>
+    <entry>
+        <key>on_board_log_in_success_deeplink</key>
+        <value>purplle.com://beautyOnBoardInfo</value>
+    </entry>
+    <entry>
+        <key>on_board_quiz_url</key>
+        <value></value>
+    </entry>
+    <entry>
+        <key>user_segment</key>
+        <value>A</value>
+    </entry>
+</defaultsMap>

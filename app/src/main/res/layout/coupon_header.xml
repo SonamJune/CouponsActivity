@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_apply_coupon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_20dp"
+    android:paddingTop="@dimen/_10dp"
+    android:paddingRight="@dimen/_20dp">
+
+    <com.example.couponbase.views.PurplleEditText
+        android:id="@+id/edit_apply_coupon"
+        style="@style/man_regular_12ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/light_gary_border_rectangle"
+        android:digits="@string/all_chars_digit"
+        android:hint="@string/type_coupon_code_here"
+        android:imeOptions="actionDone"
+        android:inputType="textCapCharacters"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:paddingLeft="@dimen/_20dp"
+        android:paddingTop="@dimen/_16dp"
+        android:paddingRight="@dimen/_20dp"
+        android:paddingBottom="@dimen/_16dp"
+        android:textColor="@color/dark_gray_color"
+        android:textColorHint="@color/medium_gray_color" />
+
+    <com.example.couponbase.views.PurplleTextView
+        android:id="@+id/coupon_msg"
+        style="@style/man_regular_9ssp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:paddingLeft="@dimen/_20dp"
+        android:text="@string/invalid_coupon"
+        android:visibility="gone"
+        android:paddingRight="@dimen/_20dp"
+        android:textColor="@color/red" />
+
+    <com.example.couponbase.views.PurplleTextView
+        style="@style/subheading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/OR" />
+</LinearLayout>

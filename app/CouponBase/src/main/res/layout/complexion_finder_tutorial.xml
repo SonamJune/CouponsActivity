@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tutorial_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:visibility="gone">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/tutorial_back_icon"
+            style="@style/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:gravity="center"
+            android:padding="@dimen/_10dp"
+            android:text="@string/back_icon_id"
+            android:textColor="@color/dark_gray_color"
+            android:textSize="@dimen/_20dp" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/skin_shade_label"
+            style="@style/subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorial_back_icon"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/skin_shade_n_matching_tips"
+            android:textColor="@color/pink"
+            android:textSize="@dimen/_30dp" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/label"
+            style="@style/caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skin_shade_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:gravity="center"
+            android:text="@string/keep_your_mobile_screen_brightness_high_for_a_better_match" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/step1"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label"
+            android:layout_marginTop="@dimen/_5dp"
+            android:background="@drawable/right_round_rectangle"
+            android:elevation="@dimen/_5dp"
+            android:paddingLeft="@dimen/_15dp"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingRight="@dimen/_20dp"
+            android:paddingBottom="@dimen/_10dp"
+            android:text="@string/step_1" />
+
+        <ImageView
+            android:id="@+id/mirror_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step1"
+            android:layout_marginLeft="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_25dp"
+            android:background="@drawable/shade" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step1"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:layout_toRightOf="@id/mirror_image"
+            android:text="@string/reach_your_near_complexion_shade_by_dragging_bar_in_between_light_medium_tan_and_dark" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/or_label1"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mirror_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:text="@string/or"
+            android:textAllCaps="true" />
+
+        <ImageView
+            android:id="@+id/wheel_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/or_label1"
+            android:layout_marginLeft="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@drawable/shade_swipe" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/or_label1"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:layout_toRightOf="@id/wheel_image"
+            android:text="@string/reach_your_near_complexion_shade_by_swiping_skin_shade_wheel" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/step2"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wheel_image"
+            android:layout_marginTop="@dimen/_20dp"
+            android:background="@drawable/right_round_rectangle"
+            android:elevation="@dimen/_5dp"
+            android:paddingLeft="@dimen/_15dp"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingRight="@dimen/_20dp"
+            android:paddingBottom="@dimen/_10dp"
+            android:text="@string/step_2" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/tap_label"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step2"
+            android:layout_marginLeft="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_15dp"
+            android:text="@string/tap_on_this_icon_to_view_skin_shade_on_your_full_screen" />
+
+        <ImageView
+            android:id="@+id/shade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tap_label"
+            android:layout_marginLeft="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:background="@drawable/mirror_selfie" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tap_label"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:layout_toRightOf="@id/shade"
+            android:text="@string/method_1_n_flip_your_phone_and_place_it_near_your_cheeks_see_in_the_mirror_to_match_your_perfect_shade" />
+
+        <ImageView
+            android:id="@+id/hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shade"
+            android:layout_marginLeft="@dimen/_30dp"
+            android:layout_marginTop="@dimen/_30dp"
+            android:background="@drawable/hand_skin_tone" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shade"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_toRightOf="@id/hand"
+            android:text="@string/method_2" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/step3"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hand"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_15dp"
+            android:background="@drawable/right_round_rectangle"
+            android:elevation="@dimen/_5dp"
+            android:paddingLeft="@dimen/_15dp"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingRight="@dimen/_20dp"
+            android:paddingBottom="@dimen/_10dp"
+            android:text="@string/step_3" />
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/label1"
+            style="@style/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step3"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_6dp"
+            android:text="@string/once_you_get_your_perfect_one_pick_that" />
+
+        <ImageView
+            android:id="@+id/pick_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step3"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_toRightOf="@id/label1"
+            android:background="@drawable/pick_this" />
+
+
+        <com.manash.purpllebase.views.PurplleTextView
+            android:id="@+id/got_it"
+            style="@style/button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/pick_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:background="@drawable/button_selector_accent"
+            android:gravity="center"
+            android:text="@string/got_it"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</ScrollView>
